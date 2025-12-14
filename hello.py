@@ -1,3 +1,6 @@
-# I am breaking this on purpose to test CodeRabbit
 def greet(name):
-print("Hello " + name)  # <--- Indentation error and style error
+    """Greets the user."""
+    print(f"Hello, {name}!")
+
+if __name__ == "__main__":
+    greet("World")
